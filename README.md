@@ -13,7 +13,6 @@ Bu proje, toprak nem sensörü kullanarak bitkilerin otomatik sulanmasını sağ
 - [Kullanım](#kullanım)
 - [Kodun Açıklaması](#kodun-açıklaması)
 - [Geliştirme ve İyileştirmeler](#geliştirme-ve-iyileştirmeler)
-- [Lisans](#lisans)
 
 ---
 
@@ -38,7 +37,9 @@ Bu sistem, toprak nem sensöründen gelen verileri okuyarak toprağın nem seviy
 
 - Toprak Nem Sensörünün veri pini Arduino'nun A0 analog girişine bağlanır.  
 - Pompa, Arduino'nun dijital çıkış pinlerinden birine bağlanır (örn. D8) ve genellikle bir röle modülü ile kontrol edilir.  
-- LCD ekranın bağlantısı için I2C modülü varsa SDA ve SCL pinleri kullanılır (A4 ve A5 pinleri Arduino Uno için).  
+- LCD ekranın bağlantısı için I2C modülü varsa SDA ve SCL pinleri kullanılır (A4 ve A5 pinleri Arduino Uno için).
+  
+<img width="454" height="252" alt="şemaa" src="https://github.com/user-attachments/assets/a188745a-9b1b-4400-80f2-4f5bf92fb21c" />
 
 ---
 
